@@ -23,8 +23,8 @@ public class ControlRegalo {
         double precioMaximo = reader.nextDouble();
 
         try {
-            String contentProveedores = FileReader.readFileAsString("C:\\Users\\Asus\\Documents\\Universidad\\IngSoftwareI\\Homeworks\\Tarea3\\ProveedorRegalo\\src\\Resources\\Proveedores.json");
-            String contentRegalos = FileReader.readFileAsString("C:\\Users\\Asus\\Documents\\Universidad\\IngSoftwareI\\Homeworks\\Tarea3\\ProveedorRegalo\\src\\Resources\\Productos.json");
+            String contentProveedores = FileReader.readFileAsString("Resources/Proveedores.json");
+            String contentRegalos = FileReader.readFileAsString("Resources/Productos.json");
 
             cargarProveedores(contentProveedores);
             cargarRegalos(contentRegalos);
